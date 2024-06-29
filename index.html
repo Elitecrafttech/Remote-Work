@@ -15,15 +15,23 @@
 <body>
   <nav class="parent">
     <div class="sec">
-      <img src="images/logo.svg" alt="">
-      <h6>Features</h6>
-      <h6>Company</h6>
-      <h6>Careers</h6>
-      <h6>About</h6>
-      <div class="btn">
-        <button class="log">Login</button>
-        <button class="reg">Register</button>
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
       </div>
+      <div class="play">
+        <img src="images/icon-close-menu.svg" alt="" onclick="closemenu()">
+        <ul>
+          <li>Features</li>
+          <li>Company</li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <div class="btn">
+          <button class="log">Login</button>
+          <button class="reg">Register</button>
+        </div>
+      </div>
+        <img src="images/icon-menu.svg" alt="" onclick="menu()" class="icon-menu">
     </div>
     <div class="page">
       <div class="new">
@@ -41,5 +49,7 @@
       <div><img src="images/image-hero-desktop.png" alt="" class="hero"></div>
     </div>
   </nav>
+
+  <script src="index.js"></script>
 </body>
 </html>
